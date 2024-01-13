@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 236, 184);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(31, 25, 95);
+}
+header{
+    display: flex;
+    background-color: rgb(49, 40, 154);
+    color: rgb(253, 236, 184);
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+header img {
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px rgb(15, 12, 55);
+    margin: 0 15px;    
+}
+header span{
+    margin: 0 15px;
+}
+h1{
+    font-size: 2rem;
+}
+nav{
+    background-color: rgb(148, 0, 83);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    border: 1px solid rgb(253, 236, 184);
+}
+
+nav li:hover {
+    background-color: rgba(49, 40, 154, 0.5);
+}
+
+nav a {
+    display: block;
+    color:  rgb(253, 236, 184);
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+.active {
+    background-color:rgb(31, 25, 95);
+}
+.active a{
+    color: rgb(253, 236, 184);
+}
+
+main h1{
+    text-align: center;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
+.cards {
+    margin: 1rem 2vw;
+}
+.card {
+    border: 1px solid rgb(31, 25, 95);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.card h2{
+    background-color: rgb(49, 40, 154);
+    color: rgb(253, 236, 184);
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+.card p, ul{
+    padding: 10px;
+    list-style-type: none;
+}
+.card p{
+    text-align: center;
+}
+footer{
+    display: block;
+    background-color: rgb(49, 40, 154);
+    color: rgb(253, 236, 184);
+    font-weight: 700;
+    
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+footer p{
+    margin: 10px;
+}
+
+/*  
+rgb(31, 25, 95); darker blue
+rgb(49, 40, 154); purple blue
+rgb(148, 0, 83) purple
+rgb(255, 0, 84); pink
+rgb(255, 84, 0); orange
+rgb(253, 236, 184) vanilla*/
