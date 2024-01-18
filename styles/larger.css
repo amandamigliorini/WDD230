@@ -1,15 +1,17 @@
 @media screen and (min-width: 45rem) {
     body{
-        max-width: 1300px;
         margin: auto;
     }
+    
     header, footer{
         border: 1px solid rgb(253, 236, 184);
     }
-    nav ul{
+    
+    ul.navigation, ul.navigation.open{
         display: flex;
         justify-content: center;        
     }
+
     nav ul li {
         flex: 1 1 100%;        
     }
@@ -18,10 +20,15 @@
     }
     .cards {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 20px;
+        grid-template-columns: auto auto;
+        column-gap: 50px;        
     }
     .card {
         box-shadow: 1px 1px 30px black;
+        font-size: 1.2rem;
     }
+    #menu{
+        display: none;
+    }
+
 }

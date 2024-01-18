@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: rgb(31, 25, 95);
+    margin: 0 auto;
 }
 header{
     display: flex;
@@ -28,11 +29,38 @@ header img {
 header span{
     margin: 0 15px;
 }
+#darkBtn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 24px;
+    background-color: rgb(253, 236, 184);
+    cursor: pointer;
+}
 h1{
     font-size: 2rem;
 }
 nav{
     background-color: rgb(148, 0, 83);
+}
+
+#menu{
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: rgb(253, 236, 184);
+    cursor: pointer;
+    width: 44px;
+    text-align: center;
+    padding: .25rem 2vw;
+    margin-left: 85%;
+
+}
+#menu::before{
+    content: "\2630";
+}
+#menu.open::before{
+    content:"\2716";
 }
 
 nav ul {
@@ -48,12 +76,19 @@ nav li:hover {
     background-color: rgba(49, 40, 154, 0.5);
 }
 
-nav a {
+ul.navigation li a{
     display: block;
     color:  rgb(253, 236, 184);
     text-align: center;
     padding: .5rem;
     text-decoration: none;
+}
+ul.navigation{
+    display: none;
+    list-style-type: none;
+}
+ul.navigation.open{
+    display: block;
 }
 .active {
     background-color:rgb(31, 25, 95);
@@ -76,6 +111,7 @@ main h1{
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
+    background-color: rgb(253, 236, 184);
 }
 .card h2{
     background-color: rgb(49, 40, 154);
@@ -104,4 +140,20 @@ footer{
 }
 footer p{
     margin: 10px;
+}
+
+main.dark{
+    background-color: black;
+}
+main.dark h1{
+    color:  rgb(253, 236, 184);
+}
+main.dark .card {
+    background-color:black;
+    color: rgb(253, 236, 184);
+    border-color: rgb(253, 236, 184);
+    box-shadow: 1px 1px 15px rgb(253, 236, 184);
+}
+main.dark a {
+    color: rgb(253, 236, 184);
 }
