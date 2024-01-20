@@ -1,0 +1,58 @@
+@media screen and (min-width: 55rem) {
+    body{
+        margin: auto;
+    }
+    header{
+        font-size: 2.5rem;
+    }
+    
+    #menu{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul.navigation, ul.navigation.open{
+        display: flex;       
+    }
+
+    ul.navigation li{
+        margin: 0 20px;
+        border: none;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        font-weight: 700;  
+        font-size: 1.2rem;
+    }
+    .hero-message{
+        position: absolute;
+        top: 20%;
+        width: 70%;
+        margin-left: 10px;
+        font-size: 2rem;
+        background-color: #323031;
+        color: #effdff;
+        text-align: center;
+        opacity: 0.7;
+        border-radius: 10px;
+    }
+    .top-cards{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 20px;  
+    }
+
+}
+
+@media screen and (min-width: 70rem) {
+    .hero-message{
+        position: absolute;
+        top: 45%;
+        width: 60%;
+        font-size: 2.5rem;
+    }
+}
