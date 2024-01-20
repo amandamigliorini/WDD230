@@ -10,7 +10,7 @@ body{
     color: #084c61;
     margin: 0 auto;
 }
-h1, h2, h3, h4, span{
+h1, h2, h3, h4{
     font-family: "Playfair Display", serif;
 }
 header{
@@ -18,7 +18,6 @@ header{
     background-color: #15737d;
     color:#effdff;
     font-weight: 700;
-    font-size: 1.5rem;
     padding: 20px;
     align-items: center;
     justify-content: flex-start;   
