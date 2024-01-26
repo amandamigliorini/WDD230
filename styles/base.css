@@ -12,22 +12,21 @@ body{
 }
 header{
     display: flex;
+    flex-direction: column;
     background-color: rgb(49, 40, 154);
     color: rgb(253, 236, 184);
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding: 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;    
 }
 header img {
     border-radius: 10%;
     box-shadow: 1px 1px 10px rgb(15, 12, 55);
-    margin: 0 15px;    
+    margin: 0 auto;    
 }
 header span{
     margin: 0 15px;
+    text-align: center;
 }
 #darkBtn{
     position: absolute;
@@ -102,6 +101,22 @@ main h1{
     padding: .5rem;
     margin-top: 1rem;
 }
+.hero{
+    position: relative;
+}
+.hero-picture img{
+    width: 100%;
+    height: auto;
+}
+.hero span{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 15px rgb(15, 12, 55);
+}
 
 .cards {
     margin: 1rem 2vw;
@@ -132,7 +147,6 @@ footer{
     background-color: rgb(49, 40, 154);
     color: rgb(253, 236, 184);
     font-weight: 700;
-    
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -156,4 +170,9 @@ main.dark .card {
 }
 main.dark a {
     color: rgb(253, 236, 184);
+}
+.map{
+    display: block;
+    margin: 10px auto;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
 }
