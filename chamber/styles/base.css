@@ -214,7 +214,7 @@ footer{
 }
 
 .community-cards, .events-cards{
-    display: blocks;   
+    display:block;   
 }
 .community-card, .event-card{
     margin: 10px;
@@ -246,6 +246,7 @@ footer{
     margin: 20px auto;
     width: 80%; 
     text-align: center;
+    padding: 20px;
 }
 .weather{
     grid-row: 2/3;
@@ -261,6 +262,7 @@ footer{
     width: 75%;
     display: block;
 }
+
 .population, .employment, .mayor, .gdp, .education{
     margin: 0.7rem;
     width: auto;
