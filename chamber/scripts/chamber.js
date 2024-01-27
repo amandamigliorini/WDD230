@@ -1,21 +1,3 @@
-// bussiness spotlights slideshow code
-var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slide-card");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {
-        slideIndex = 1
-    }
-    x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-
 // declaring variables to contain the last modified date on the footer
 let oLastModif = new Date(document.lastModified);
 const options = {		
@@ -34,20 +16,47 @@ const navElements = document.querySelector(".navigation");
 const darkButton = document.getElementById('darkBtn');
 const main = document.querySelector('main')
 
-
 // adding modified to the footer
-
 const lastModifiedElement = document.getElementById("lastModified");
 lastModifiedElement.textContent = oLastModif.toLocaleDateString("en-US", options);
 
 //adding class for open and close hamburguer menu
 hamburguerElement.addEventListener('click', () => {
     navElements.classList.toggle('open');
-    hamburguerElement.classList.toggle('open');
-    
+    hamburguerElement.classList.toggle('open');  
 })
 
 //code for dark mode click
 darkButton.addEventListener('click',() =>{
     main.classList.toggle('dark');
 })
+
+// get .visits and initialize element
+const visitsElement = document.querySelector(".visits");
+
+// getting current day
+let currentDate = new Date();
+let today = Date.now();
+
+// milliseconds to days constant = 1000 ms/s * 60 s/m * 60 m/h * 24 h/day
+const msToDays = 84600000;
+
+// get the num of visits in the local storage if exists or (||) assign it to 0
+let lastVisit = Number(window.localStorage.getItem('lastVisitLocal')) || currentDate;
+//let lastVisit = new Date(lastVisitDay).getTime();
+
+//getting the time since last visit
+let daysSinceLastVisit = (today - lastVisit)/msToDays;
+
+//display the num of visits or a message if is the first visit of the user
+if(daysSinceLastVisit == 0){
+    visitsElement.textContent = "Welcome! Let us know if you have any questions.";
+}
+else if ((daysSinceLastVisit > 0) && (daysSinceLastVisit < 1)){
+    visitsElement.textContent = "Back so soon! Awesome!";
+}
+else{
+    visitsElement.textContent = `You last visited ${daysSinceLastVisit} days ago`
+}
+
+localStorage.setItem('lastVisitLocal', today);

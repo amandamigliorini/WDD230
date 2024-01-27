@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Cristina Schneider Migliorini - WDD 230 - Toledo Chamber of Commerce</title>
+    <meta name="description" content="Amanda Cristina Schneider Migliorini's home page of Toledo's Chamber of Commerce Website that is part of the WDD 230 - Web Fronted Development course">
+    <meta name="author" content="Amanda Cristina Schneider Migliorini">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Amanda Cristina Schneider Migliorini Home Page - WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/images/profile.jpg">
+    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="75" height="100">
+        <h1>Toledo Chamber of Commerce</h1>
+    </header>
+    <main>
+        <nav>
+            <img src="images/dark-theme-svgrepo-com.svg" alt="dark mode" id="darkBtn">
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li class="active link"><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img id="hero-image" src="images/hero-veggies-less-height-medium.webp" alt="Hero Image">
+            <div class="hero-message">
+                <h2 id="message">A Great Place to Invest</h2>
+                <h3>Already Investing?  - Join the Chamber</h3>
+                <button id="hero-button">Join</button>  
+            </div>
+        </div>
+        <div class="main-discover">
+            <div class="sidebar">
+                <section class="welcome-message">
+                    <h1><span class="visits">Welcome to the Discover Page!</span></h1>
+                </section>
+                <section class="weather">
+                    <a class="weatherwidget-io" href="https://forecast7.com/en/n24d73n53d74/toledo/" data-label_1="TOLEDO" data-label_2="WEATHER" data-theme="original" >TOLEDO WEATHER</a>
+                    <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                    </script>
+                </section>
+                <section class="demographics">
+                    <div class="population">
+                        <h5>POPULATION</h5>
+                        <p>150,470 (2022)</p>
+                    </div>
+                    <div class="employment">
+                        <h5>EMPLOYED POPULATION</h5>
+                        <p>65,934 -45,60% (2021)</p>
+                    </div>
+                    <div class="mayor">
+                        <h5>MAYOR</h5>
+                        <p>LUIS ADALBERTO BETO LUNITTI PAGNUSSATT</p>
+                    </div>
+                    <div class="gdp">
+                        <h5>GDP per capita</h5>
+                        <p>R$51,745.73</p>
+                    </div>
+                    <div class="education">
+                        <h5>EDUCATION</h5>
+                        <p>98,8% (age between 6-14 years old)</p>
+                    </div>
+                </section>
+            </div>
+            <div class="pictures"> 
+                <picture>
+                    <source srcset="images/lake-new-year-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/lake-new-year-large.webp" media="(max-width: 2000px)">
+                    <img src="images/lake-new-year-small.webp" alt="table setting" loading="lazy" width="512 " height="340">
+                </picture>      
+                <picture>
+                    <source srcset="images/store-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/store-large.webp" media="(max-width: 2000px)">
+                    <img src="images/store-small.webp" alt="table setting" loading="lazy" width="800" height="500">
+                </picture>       
+                <picture>
+                    <source srcset="images/father-daughter-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/father-daughter-large.webp" media="(max-width: 2000px)">
+                    <img src="images/father-daughter-small.webp" alt="table setting" loading="lazy" width="800" height="500">
+                </picture>                       
+                <picture>
+                    <source srcset="images/ballet-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/ballet-large.webp" media="(max-width: 2000px)">
+                    <img src="images/ballet-small.webp" alt="table setting" loading="lazy" width="800 " height="500">
+                </picture>            
+                <picture>
+                    <source srcset="images/lake-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/lake-large.webp" media="(max-width: 2000px)">
+                    <img src="images/lake-small.webp" alt="table setting" loading="lazy" width="512 " height="340">
+                </picture>    
+                <picture>
+                    <source srcset="images/dog-street-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/dog-street-large.webp" media="(max-width: 2000px)">
+                    <img src="images/dog-street-small.webp" alt="table setting" loading="lazy" width="800 " height="500">
+                </picture>         
+            </div>
+        </div>      
+    </main>
+    <footer>
+        <p>&copy; 
+            <a id="year">2024</a>
+             Toledo Chamber of Commerce | Adress: Main Street, 00 | Phone: 00 0000 000  
+        </p>
+
+        <p>Amanda Cristina Schneider Migliorini | WDD 230 | | Last Modification: <a id="lastModified"></a></p>
+    </footer>
+    
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

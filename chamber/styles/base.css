@@ -120,7 +120,8 @@ li.active.link a{
     align-items: center;
     justify-items: center;
     margin: 20px;   
-    text-align: center;   
+    text-align: center; 
+    border-bottom: 3px solid #084c61;  
 }
 .small-cards h2{
     box-shadow: 1px 1px 5px #effdff;
@@ -132,25 +133,18 @@ li.active.link a{
 .small-cards img{
     margin: 10px;
 }
-#weather-card{
+#weather-card, #next-event-card {
     background-color: #084c61;
     color: #effdff;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border-radius: 5px;
     text-align: center;
     font-size: 1.5rem;
-    
+    width: 75%; 
 }
-#next-event-card{
-    background-color: #084c61;
-    color: #effdff;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1.5rem;
-}
+
 .next-content{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content:space-evenly;
 }
@@ -158,6 +152,8 @@ li.active.link a{
     color: #effdff;
 }
 .next-content img{
+    width: 80%;
+    height: auto;
     border-radius: 5px;
 }
 .next-text{
@@ -171,6 +167,7 @@ li.active.link a{
 .business-cards{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 1.5rem;
 }
 .business-cards img{
     width: 90%;
@@ -204,7 +201,87 @@ footer{
     color: #effdff;
     padding: 20px;
     text-align: center;
-  
+}
+.main-cards{
+    display: block;
+    padding-top: 1.5rem;
+    border-top: 3px solid #084c61;
+    margin:1.5rem;
+}
+.main-cards h2{
+    padding: 5px;
+    margin-left: 1rem;
+}
+
+.community-cards, .events-cards{
+    display: blocks;   
+}
+.community-card, .event-card{
+    margin: 10px;
+    box-shadow: 1px 1px 5px #effdff;
+    background-color:#ffc857;    
+}
+.event-card{
+    background-color: #15737d;
+    color: #effdff;
+
+}
+.community-card img, .event-card img{
+    width: 100%;
+}
+.community-card h4, .event-card h4{
+    text-align: center;
+    padding: 5px;
+}
+
+.sidebar, .pictures{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.welcome-message{
+    grid-row: 1/2;
+    background-color: #ffc857;
+    color:#323031;
+    margin: 20px auto;
+    width: 80%; 
+    text-align: center;
+}
+.weather{
+    grid-row: 2/3;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 80%; 
+}
+.demographics{
+    grid-row: 3/6;
+    background-color: #084c61;
+    color: #effdff;
+    margin: 20px auto;
+    width: 75%;
+    display: block;
+}
+.population, .employment, .mayor, .gdp, .education{
+    margin: 0.7rem;
+    width: auto;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border: 0.5rem solid #effdff;
+}
+.demographics h5{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom:1px solid #ffc857;
+}
+.pictures{
+    margin-right: 20px;
+}
+
+.pictures img{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 
