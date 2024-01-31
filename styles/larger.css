@@ -21,12 +21,7 @@
         justify-content: center;        
     }
 
-    nav ul li {
-        flex: 1 1 100%;        
-    }
-    nav ul li a {
-        margin: 10px;  
-    }
+
     .cards {
         display: grid;
         grid-template-columns: auto auto;
@@ -36,6 +31,10 @@
         box-shadow: 1px 1px 30px black;
         font-size: 1.2rem;
     }
+    .card li {
+        flex: 1 1 100%;    
+    }
+    
     #menu{
         display: none;
     }

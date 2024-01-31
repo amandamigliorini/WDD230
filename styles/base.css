@@ -142,6 +142,11 @@ main h1{
 .card p{
     text-align: center;
 }
+.card a {
+    margin: 10px;
+    padding: 5px;  
+    text-decoration: none;
+}
 footer{
     display: block;
     background-color: rgb(49, 40, 154);
