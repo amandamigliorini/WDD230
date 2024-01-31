@@ -95,11 +95,7 @@
     }
     .pictures img:hover{
         filter: contrast(50%);
-    }
-
-    
-    
-
+    }   
 }
 
 @media screen and (min-width: 70rem) {
