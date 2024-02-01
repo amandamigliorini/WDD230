@@ -1,0 +1,40 @@
+.forms{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+label{
+    display: block;
+}
+label input{
+    display: block;
+}
+
+#r {
+	width: 200px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0;
+    width: 200px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+    padding: 0px 2px 1px;
+}
+
