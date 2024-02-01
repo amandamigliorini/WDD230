@@ -77,3 +77,15 @@ label.top input{
     padding: 10px;
     margin: 0 1rem;
 }
+
+@media screen and (min-width: 45rem){
+    form{
+        width: 50%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+}
