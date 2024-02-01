@@ -30,7 +30,8 @@ form fieldset{
 label.top input{
     display: block;
     color: var(--border);;
-    font-size: .8rem bold;
+    font-size: .8rem;
+    font-weight: bold;
     width: 100%;
     max-width: 300px;
     border: 1px solid var(--border);
@@ -66,7 +67,8 @@ label.top input{
 
 .submit{
     color: var(--colorBtn);
-    font-size: .8rem bold;
+    font-size: .8rem;
+    font-weight: bold;
     width: 100%;
     max-width: 300px;
     border: 1px solid var(--border);
