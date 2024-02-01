@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="styles/forms.css">
     <link rel="stylesheet" href="styles/forms-larger.css">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Amanda Cristina Schneider Migliorini Forms - WDD 230">
+    <meta property="og:title" content="Amanda Cristina Schneider Migliorini Record - WDD 230">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/images/profile.webp">
-    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/forms.html">
+    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/record.html">
 </head>
 <body>
     <header>
@@ -40,35 +40,8 @@
 
     <main>
         <h1>Sign Up</h1>
-        <div class="form">
-            <form method="get" action="records.html">
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <label class="top">Username:*<input id="username" type="text" name="Uname" required></label>
-                    <label class="top">Password:*<input id="password" type="password" name="password" required></label>
-                    <label id="labelConfirmation"></label>
-                    <label class="top">Password Confirmation:*<input id="cpassword" type="password" name="cpassword" pattern="[A-Za-z0-9]{8}" required></label>
-                    <label class="top">Email:*<input id="email" type="email" name="email" placeholder="someone@gmail.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
-                    <label for="r">Page Rate</label>
-                    <div id="rangevalue">0</div>
-                    <label><input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues"></label> 
-                    <datalist id="rangevalues">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </datalist>
-                </fieldset>
-                <button class="submit">Sign Up</button>
-            </form>
-        </div>
+        <h2>Thank you for signing up to our page</h2>
+        
         
     </main>
     <footer>
@@ -78,7 +51,6 @@
         </p>
         <p>Last Modification: <a id="lastModified"></a></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/forms.js"></script>
+
 </body>
 </html>

@@ -1,36 +1,62 @@
+:root{
+    --border: rgb(31, 25, 95);
+    --BgBtn: rgb(148, 0, 83);
+    --colorBtn: rgb(253, 236, 184); 
+}
+
 .forms{
     display: flex;
     justify-content: space-around;
 }
 form{
-    width: 50%;
+    width: 100%;
     height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
-label{
-    display: block;
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid  var(--border);
+    border-radius: 10px;
+    padding: .5rem 2%;
 }
-label input{
+.form fieldset label{
     display: block;
+    margin-top: 15px;
 }
 
+label.top input{
+    display: block;
+    color: var(--border);;
+    font-size: .8rem bold;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#labelConfirmation{
+    color: var(--BgBtn);
+    font-weight: bold;
+    margin-bottom: 0;
+}
 #r {
-	width: 200px;
+	width: 300px;
 	margin-bottom: 0;
 }
-
 #rangevalue {
 	font-size: 2rem;
-	color: navy;
+	color: var(--BgBtn);
 }
 
 #rangevalues {
 	display: flex;
-	margin: 0;
-    width: 200px;
+	margin: 0 0 10px 0;
+    width: 320px;
+    color: var(--BgBtn);
 }
 
 #rangevalues option {
@@ -38,3 +64,14 @@ label input{
     padding: 0px 2px 1px;
 }
 
+.submit{
+    color: var(--colorBtn);
+    font-size: .8rem bold;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid var(--border);
+    background-color: var(--BgBtn);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 1rem;
+}

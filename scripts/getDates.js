@@ -6,21 +6,6 @@ const navElements = document.querySelector(".navigation");
 //declaring dark mode variables
 const darkButton = document.getElementById('darkBtn');
 const main = document.querySelector('main');
-// get .visits and initialize element
-const visitsElement = document.querySelector(".visits");
-// get the num of visits in the local storage if exists or (||) assign it to 0
-let numVisits = Number(window.localStorage.getItem('numVisitsLocal')) || 0;
-
-//display the num of visits or a message if is the first visit of the user
-if(numVisits != 0){
-    visitsElement.textContent = numVisits;
-}
-else{
-    visitsElement.textContent = `This is your first visit.\u{1F600} Welcome!`
-}
-numVisits++;
-
-localStorage.setItem('numVisitsLocal', numVisits);
 
 const options = {		
     day: "numeric",
@@ -49,3 +34,19 @@ hamburguerElement.addEventListener('click', () => {
 darkButton.addEventListener('click',() =>{
     main.classList.toggle('dark');
 })
+
+// get .visits and initialize element
+const visitsElement = document.querySelector(".visits");
+// get the num of visits in the local storage if exists or (||) assign it to 0
+let numVisits = Number(window.localStorage.getItem('numVisitsLocal')) || 0;
+
+//display the num of visits or a message if is the first visit of the user
+if(numVisits != 0){
+    visitsElement.textContent = numVisits;
+}
+else{
+    visitsElement.textContent = `This is your first visit.\u{1F600} Welcome!`
+}
+numVisits++;
+
+localStorage.setItem('numVisitsLocal', numVisits);
