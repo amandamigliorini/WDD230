@@ -53,16 +53,16 @@
                         <label class="top">First Name*<input type="text" name="fname" id="first-name" required></label>
                         <label class="top">Last Name*<input type="text" name="lname" id="last-name" required></label>
                         <label class="top">Title/Position <input type="text" name="position" id="tposition" pattern="[A-Za-z0-9\- ]{7,}" title="Please use only alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
-                        <label class="top">Email:*<input id="email" type="email" name="email" placeholder="someone@gmail.com"required></label>
+                        <label class="top">Email:*<input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
                         <label class="top">Mobile Number*<input type="tel" name="mobileNumber" id="mobile" required></label>
                         <label class="top">Business Name*<input type="text" name="bname" id="bname" required></label>
                     </fieldset>
                     <fieldset>
                         <legend>Membership</legend>
-                        <label class="sbs"><input type="radio" name="membership" value="NP"> Non Profit Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" id="NP"> Non Profit Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" id="bronze"> Bronze Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" id="silver"> Silver Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" id="gold"> Gold Membership</label>
                     </fieldset>
                     <fieldset>
                         <legend>Description</legend>
@@ -71,7 +71,7 @@
                         </label>
                     </fieldset>
                     <input type="hidden" id="timestamp" name="timestamp">
-                    <input type="submit" value="Join the Chamber" class="submitButton">
+                    <input type="submit" id="submit" value="Join the Chamber" class="submitButton">
                 </form>
             </div>
             <div class="benefits">
