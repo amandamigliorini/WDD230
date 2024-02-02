@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Cristina Schneider Migliorini - WDD 230 - Toledo Chamber of Commerce - Join</title>
+    <meta name="description" content="Amanda Cristina Schneider Migliorini's join page of Toledo's Chamber of Commerce Website that is part of the WDD 230 - Web Fronted Development course">
+    <meta name="author" content="Amanda Cristina Schneider Migliorini">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Amanda Cristina Schneider Migliorini Home Page - WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/images/profile.jpg">
+    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/join.html">
+</head>
+<body>
+    <header>
+        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="75" height="100">
+        <h1>Toledo Chamber of Commerce</h1>
+    </header>
+    <main>
+        <nav>
+            <img src="images/dark-theme-svgrepo-com.svg" alt="dark mode" id="darkBtn">
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li class="active link"><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <picture>
+                <source srcset="images/join-business-smaller.webp" media="(max-width: 600px)">
+                <source srcset="images/join-business-larger.webp" media="(max-width: 2000px)">
+                <img id="hero-image" src="images/join-business-smaller.webp" alt="Join Image" loading="lazy" width="683" height="228">
+            </picture>      
+            <div class="hero-message">
+                <h2 id="message">Thank You for Joining the Chamber!</h2>  
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 
+            <a id="year">2024</a>
+             Toledo Chamber of Commerce | Adress: Main Street, 00 | Phone: 00 0000 000  
+        </p>
+
+        <p>Amanda Cristina Schneider Migliorini | WDD 230 | | Last Modification: <a id="lastModified"></a></p>
+    </footer>
+    
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/caroussel.js"></script>
+</body>
+</html>
