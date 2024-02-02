@@ -96,6 +96,33 @@
     .pictures img:hover{
         filter: contrast(50%);
     }   
+
+    .join-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+    }
+    .form{
+        min-width: 50%;
+    }
+    .sbs{
+        padding: .4rem 0;
+    }
+    .top input{
+        padding: .4rem 0;
+    }
+    .top textarea{
+        max-width: 400px;
+    }
+    .benefits{
+        margin:50px 30px 2rem 30px;
+    }
+    .table table{
+        font-size: 1rem;
+        margin: 5px;
+    }
+
+
 }
 
 @media screen and (min-width: 70rem) {
