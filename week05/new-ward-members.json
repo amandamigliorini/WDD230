@@ -1,0 +1,23 @@
+{
+    "family-name": "Migliorini",
+    "ward-moving-date": "2007-03-17",
+    "family-members-quantity": 3,
+    "bishopric-visited": "yes",
+    "family-members": [
+        {
+            "name" : "Dad Migliorini",
+            "gender" : "male",
+            "birthdate": "1984-00-00"
+        },
+        {
+            "name" : "Mom Migliorini",
+            "gender" : "female",
+            "birthdate": "1987-00-00"
+        },
+        {
+            "name" : "Child Migliorini",
+            "gender" : "female",
+            "birthdate": "2012-00-00"
+        }
+    ]
+}
