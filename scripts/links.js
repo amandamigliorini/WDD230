@@ -8,7 +8,7 @@ const linksURL = "https://amandamigliorini.github.io/wdd230/data/links.json";
 async function getLinks(){
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data);
+    //console.log(data);
     //In the getLinks function, add a new line of code at the end that calls 
     //a function that will build out the available activity links from the data response.
     displayLinks(data.weeks);
