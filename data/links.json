@@ -88,15 +88,15 @@
                     "title": "Pseudo-elements"
                 },
                 {
-                    "url": "week04/images/combinators.png",
+                    "url": "week05/new-ward-members.json",
                     "title": "JSON File"
                 },
                 {
-                    "url": "week04/tablebuild.html",
+                    "url": "week05/phophets.html",
                     "title": "Prophets (Fetch API)"
                 },
                 {
-                    "url": "week04/form-start/index.html",
+                    "url": "week05/weather.html",
                     "title": "Weather (Fetch API)"
                 }
             ]  

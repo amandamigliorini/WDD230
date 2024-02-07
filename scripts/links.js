@@ -32,7 +32,7 @@ function displayLinks(weeks){
             if (i === week.links.length - 1){
                 aElement.textContent = `${link.title}`;
             }else{
-                aElement.textContent = `${link.title} |`;
+                aElement.textContent = `${link.title} | `;
             }
             // add aElement (the link with title) to li element 
             //(if links array has more than one link it will add each one of them)
