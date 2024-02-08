@@ -4,8 +4,8 @@
         "name": "AB Store",
         "adress": "Main Street, 235",
         "phone": "00 0000-0000",
-        "website": "https://amandamigliorini.github.io/wdd230/chamber/index.html",
-        "image": "/images/ab-store.webp",
+        "website": "www.reallygreatsite.com",
+        "image": "images/ab-store.webp",
         "membership": "Silver"
 
     },
@@ -13,8 +13,8 @@
         "name": "Mister Mig Gulatessen",
         "adress": "Independency Street, 18",
         "phone": "00 0000-0000",
-        "website": "https://amandamigliorini.github.io/wdd230/chamber/index.html",
-        "image": "/images/mister-mig.webp",
+        "website": "www.reallygreatsite.com",
+        "image": "images/mister-mig.webp",
         "membership": "Gold"
 
     },
@@ -23,7 +23,7 @@
         "adress": "Anywhere Street, 123",
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
-        "image": "/images/gd.webp",
+        "image": "images/gd.webp",
         "membership": "Silver"
 
     },
@@ -31,8 +31,8 @@
         "name": "Fast IT Shop",
         "adress": "Main Street, 21",
         "phone": "00 0000-0000",
-        "website": "https://amandamigliorini.github.io/wdd230/chamber/index.html",
-        "image": "/images/fast-it.webp",
+        "website": "www.reallygreatsite.com",
+        "image": "images/fast-it.webp",
         "membership": "Bronze"
 
     },
@@ -40,8 +40,8 @@
         "name": "HF Emporium",
         "adress": "Flower Street, 297",
         "phone": "00 0000-0000",
-        "website": "https://amandamigliorini.github.io/wdd230/chamber/index.html",
-        "image": "/images/hf-emporium.webp",
+        "website": "www.reallygreatsite.com",
+        "image": "images/hf-emporium.webp",
         "membership": "Silver"
 
     },
@@ -50,7 +50,7 @@
         "adress": "Independency Street, 964",
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
-        "image": "/images/beauty-store.webp",
+        "image": "images/beauty-store.webp",
         "membership": "Bronze"
 
     },
@@ -58,8 +58,8 @@
         "name": "Great Life - Real State",
         "adress": "Daisy Street, 478",
         "phone": "00 0000-0000",
-        "website": "https://amandamigliorini.github.io/wdd230/chamber/index.html",
-        "image": "/images/great-life.webp",
+        "website": "www.reallygreatsite.com",
+        "image": "images/great-life.webp",
         "membership": "Gold"
 
     }
