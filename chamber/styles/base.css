@@ -115,7 +115,7 @@ li.active.link a{
 .top-cards{
     display: block;
 }
-.small-cards{
+.small-cards, .main-directory > .title{
     display: block;
     align-items: center;
     justify-items: center;

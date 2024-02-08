@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amanda Cristina Schneider Migliorini - WDD 230 - Toledo Chamber of Commerce - Join</title>
-    <meta name="description" content="Amanda Cristina Schneider Migliorini's join page of Toledo's Chamber of Commerce Website that is part of the WDD 230 - Web Fronted Development course">
+    <title>Amanda Cristina Schneider Migliorini - WDD 230 - Toledo Chamber of Commerce</title>
+    <meta name="description" content="Amanda Cristina Schneider Migliorini's home page of Toledo's Chamber of Commerce Website that is part of the WDD 230 - Web Fronted Development course">
     <meta name="author" content="Amanda Cristina Schneider Migliorini">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Amanda Cristina Schneider Migliorini Home Page - WDD 230">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/images/profile.jpg">
-    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/join.html">
+    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/index.html">
 </head>
 <body>
     <header>
@@ -31,22 +31,22 @@
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li class="active link"><a href="join.html">Join</a></li>
+                <li class="active link"><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
         <div class="hero">
-            <picture>
-                <source srcset="images/join-business-smaller.webp" media="(max-width: 600px)">
-                <source srcset="images/join-business-larger.webp" media="(max-width: 2000px)">
-                <img id="hero-image" src="images/join-business-smaller.webp" alt="Join Image" loading="lazy" width="683" height="228">
-            </picture>      
+            <img id="hero-image" src="images/network-larger.jpg" alt="Hero Image">
             <div class="hero-message">
-                <h2 id="message">Thank You for Joining the Chamber!</h2>  
+                <h2 id="message">Get to Know Your Future Partners</h2>
+                <h3>Join the Chamber</h3>
+                <button id="hero-button">Join</button>  
             </div>
         </div>
-
-    </main>
+        <div class="main-directory">
+            <div class="title"><h1>Business Directory</h1></div>
+            <div class="directory-cards"></div>
+        </div>
     <footer>
         <p>&copy; 
             <a id="year">2024</a>
@@ -57,6 +57,5 @@
     </footer>
     
     <script src="scripts/chamber.js"></script>
-    <script src="scripts/caroussel.js"></script>
 </body>
 </html>

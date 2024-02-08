@@ -42,6 +42,5 @@ function displayLinks(weeks){
         list.appendChild(listElement);      
     });
     
-
 }
 getLinks();
