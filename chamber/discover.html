@@ -36,7 +36,11 @@
             </ul>
         </nav>
         <div class="hero">
-            <img id="hero-image" src="images/hero-veggies-less-height-medium.webp" alt="Hero Image">
+            <picture>
+                <source srcset="images/hero-veggies-less-height-small.webp" media="(max-width: 700px)">
+                <source srcset="images/hero-veggies-less-height-medium.webp" media="(max-width: 3000px)">
+                <img id="hero-image" src="images/hero-veggies-less-height-small.webp" alt="Hero Image"  loading="lazy" width="924" height="330">
+            </picture>
             <div class="hero-message">
                 <h2 id="message">A Great Place to Invest</h2>
                 <h3>Already Investing?  - Join the Chamber</h3>

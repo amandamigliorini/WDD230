@@ -36,7 +36,11 @@
             </ul>
         </nav>
         <div class="hero">
-            <img id="hero-image" src="images/network-larger.webp" alt="Hero Image">
+            <picture>
+                <source srcset="images/network-small.webp" media="(max-width: 700px)">
+                <source srcset="images/network-larger.webp" media="(max-width: 3000px)">
+                <img id="hero-image" src="images/network-small.webp" alt="Hero Image"  loading="lazy" width="1500" height="500">
+            </picture>            
             <div class="hero-message">
                 <h2 id="message">Get to Know Your Future Partners</h2>
                 <h3>Join the Chamber</h3>
