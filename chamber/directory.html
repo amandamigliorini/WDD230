@@ -16,12 +16,12 @@
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Amanda Cristina Schneider Migliorini Home Page - WDD 230">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/images/profile.jpg">
-    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/chamber/images/toledo-chamber-logo.png">
+    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/directory.html">
 </head>
 <body>
     <header>
-        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="75" height="100">
+        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="100" height="100">
         <h1>Toledo Chamber of Commerce</h1>
     </header>
     <main>
@@ -36,15 +36,15 @@
             </ul>
         </nav>
         <div class="hero">
-            <img id="hero-image" src="images/network-larger.jpg" alt="Hero Image">
+            <img id="hero-image" src="images/network-larger.webp" alt="Hero Image">
             <div class="hero-message">
                 <h2 id="message">Get to Know Your Future Partners</h2>
                 <h3>Join the Chamber</h3>
-                <button id="hero-button">Join</button>  
+                <button id="hero-button" type="button" name="hero-button" onclick="window.location.href = 'join.html'"><b>Join</b></button>
             </div>
         </div>
         <div class="main-directory">
-            <div class="title"><h1>Business Directory</h1></div>
+            <div class="title"><h2>Business Directory</h2></div>
             <div class="menu">
                 <button id="grid">⏹️Grid</button>
                 <button id="list">📄List</button>
@@ -62,5 +62,6 @@
     </footer>
     
     <script src="scripts/directory.js"></script>
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>

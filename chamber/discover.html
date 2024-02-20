@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amanda Cristina Schneider Migliorini - WDD 230 - Toledo Chamber of Commerce - Discover Page</title>
-    <meta name="description" content="Amanda Cristina Schneider Migliorini's home page of Toledo's Chamber of Commerce Website that is part of the WDD 230 - Web Fronted Development course">
+    <meta name="description" content="Amanda Cristina Schneider Migliorini's discover page of Toledo's Chamber of Commerce Website that is part of the WDD 230 - Web Fronted Development course">
     <meta name="author" content="Amanda Cristina Schneider Migliorini">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +16,12 @@
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Amanda Cristina Schneider Migliorini Home Page - WDD 230">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/images/profile.jpg">
-    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/chamber/images/toledo-chamber-logo.png">
+    <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/discover.html">
 </head>
 <body>
     <header>
-        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="75" height="100">
+        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="100" height="100">
         <h1>Toledo Chamber of Commerce</h1>
     </header>
     <main>
@@ -40,7 +40,7 @@
             <div class="hero-message">
                 <h2 id="message">A Great Place to Invest</h2>
                 <h3>Already Investing?  - Join the Chamber</h3>
-                <button id="hero-button">Join</button>  
+                <button id="hero-button" type="button" name="hero-button" onclick="window.location.href = 'join.html'"><b>Join</b></button>
             </div>
         </div>
         <div class="main-discover">
@@ -48,12 +48,15 @@
                 <section class="welcome-message">
                     <h2><span class="visits">Welcome to the Discover Page!</span></h2>
                 </section>
-                <section class="weather">
+                <section id="weather-card">
                     <h2>Weather</h2>
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/n24d73n53d74/toledo/" data-label_1="TOLEDO" data-label_2="WEATHER" data-theme="original" >TOLEDO WEATHER</a>
-                    <script>
-                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-                    </script>
+                    <div class="weather">
+                        <figure>
+                            <img id="weather-icon" src="#" alt="#">
+                        </figure>
+                        <p id="current-temp"></p>
+                        <p id="description"></p>
+                    </div>
                 </section>
                 <section class="demographics">
                     <div class="population">
@@ -121,6 +124,7 @@
         <p>Amanda Cristina Schneider Migliorini | WDD 230 | | Last Modification: <a id="lastModified"></a></p>
     </footer>
     
-    <script src="scripts/chamber.js"></script>
+    <script src="scripts/chamber.js"></script>  
+    <script src="scripts/discover.js"></script>
 </body>
 </html>

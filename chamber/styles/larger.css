@@ -50,9 +50,31 @@
     }
     .business-cards{
         margin-top: 40px;
-        
+        margin-right: 6rem;
     }
-
+    .slide-card img{
+        width: 80%;
+        height: auto; 
+        border-radius: 5px;
+        margin-top: 5rem; 
+    }
+    .slide-card>.text{
+        font-size: 2.5rem;  
+    }
+    
+    .forecast{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #day1, #day2, #day3{
+        display: flex;
+    }
+    #day1 h3, #day2 h3, #day3 h3{
+        padding-top: 0px;
+    }
     .community-cards, .events-cards{
         display: flex;  
         align-items: center; 
@@ -75,8 +97,8 @@
         width: 90%; 
         font-size: 1.6rem;
     }
-    .weather{
-        width: 80%; 
+    #weather{
+        width: 95%;
     }
     .demographics{
         width: 80%;
@@ -139,6 +161,18 @@
         margin: 1rem;
         width: 50%;
         border-radius: 10px;
+    }
+
+    .pop-up{
+        left: 30%;
+        right: 30%;
+    }
+    .pop-up div a{
+        font-size: 1.5rem;
+    }
+
+    .pop-up div{
+        font-size: 1.2rem;
     }
 
 }

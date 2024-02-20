@@ -6,7 +6,8 @@
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
         "image": "images/ab-store.webp",
-        "membership": "Silver"
+        "membership": "Silver",
+        "advertisement": "The best clothes for you and your family!"
 
     },
     {
@@ -15,7 +16,8 @@
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
         "image": "images/mister-mig.webp",
-        "membership": "Gold"
+        "membership": "Gold",
+        "advertisement": "The best clothes for you and your family!"
 
     },
     {
@@ -24,7 +26,8 @@
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
         "image": "images/gd.webp",
-        "membership": "Silver"
+        "membership": "Silver",
+        "advertisement": "The best clothes for you and your family!"
 
     },
     {
@@ -33,7 +36,8 @@
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
         "image": "images/fast-it.webp",
-        "membership": "Bronze"
+        "membership": "Bronze",
+        "advertisement": "The best clothes for you and your family!"
 
     },
     {
@@ -42,7 +46,8 @@
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
         "image": "images/hf-emporium.webp",
-        "membership": "Silver"
+        "membership": "Silver",
+        "advertisement": "The best clothes for you and your family!"
 
     },
     {
@@ -51,7 +56,8 @@
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
         "image": "images/beauty-store.webp",
-        "membership": "Bronze"
+        "membership": "Bronze",
+        "advertisement": "The best clothes for you and your family!"
 
     },
     {
@@ -60,7 +66,8 @@
         "phone": "00 0000-0000",
         "website": "www.reallygreatsite.com",
         "image": "images/great-life.webp",
-        "membership": "Gold"
+        "membership": "Gold",
+        "advertisement": "The best clothes for you and your family!"
 
     }
 ]

@@ -12,7 +12,7 @@ const listButton = document.querySelector("#list");
 async function getBusinessData(url){
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.members);
+    //console.table(data.members);
     displayCards(data.members);
 }
 

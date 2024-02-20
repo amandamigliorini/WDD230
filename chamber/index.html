@@ -16,12 +16,12 @@
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Amanda Cristina Schneider Migliorini Home Page - WDD 230">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/images/profile.jpg">
+    <meta property="og:image" content="https://raw.githubusercontent.com/amandamigliorini/wdd230/main/chamber/images/toledo-chamber-logo.png">
     <meta property="og:url" content="https://amandamigliorini.github.io/wdd230/chamber/index.html">
 </head>
 <body>
     <header>
-        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="75" height="100">
+        <img src="images/toledo-chamber-logo.png" alt="Chamber Logo" width="100" height="100">
         <h1>Toledo Chamber of Commerce</h1>
     </header>
     <main>
@@ -35,28 +35,38 @@
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
+        <div class="pop-up">       
+        </div>
         <div class="hero">
-            <img id="hero-image" src="images/pexels-andrea-piacquadio-975250-crop.jpg" alt="Hero Image">
+            <img id="hero-image" src="images/pexels-andrea-piacquadio-975250-crop.webp" alt="Hero Image">
             <div class="hero-message">
                 <h2 id="message">Make Connections and Grow Your Business</h2>
                 <h3>Join the Chamber</h3>
-                <button id="hero-button">Join</button>  
+                <button id="hero-button" type="button" name="hero-button" onclick="window.location.href = 'join.html'"><b>Join</b></button>  
             </div>
         </div>
         <div class="top-cards">
             <div class="small-cards">            
                 <section id="weather-card">
                     <h2>Weather</h2>
-                    <img src="images/2682806_light_radiation_rays_sun_ultraviolet_icon.png" alt="weather ico" width="64">
-                    <p>Toledo, Paraná, Brazil</p>
-                    <p>36 &#8451;</p>
-                    <p>Weather prevision summary</p>                   
+                    <div class="weather">
+                        <figure>
+                            <img id="weather-icon" src="#" alt="#">
+                        </figure>
+                        <p id="current-temp"></p>
+                        <p id="description"></p>
+                    </div> 
+                    <div class="forecast">
+                        <div id="day1"></div>
+                        <div id="day2"></div>
+                        <div id="day3"></div >
+                    </div>                    
                 </section>
                 <section id="next-event-card">
                     <h2>Next Event</h2>
                     <section class="next-content">
                         <div>
-                            <img src="images/pexels-fauxels-3183197.jpg" alt="Event Image" width="160">    
+                            <img src="images/pexels-fauxels-3183197.webp" alt="Event Image" width="160">    
                         </div>
                         <div class="next-text">
                             <h3>Event's Name</h3>
@@ -65,37 +75,27 @@
                     </section>
                 </section>
             </div>
-            <section class="business-cards">
+            <div class="business-cards">
                 <div class="slide-card">
-                    <img class="slide-imgs" src="images/pexels-cottonbro-studio-6127627.jpg" alt="Businesses Banner">
-                    <h3 class="text">"Advertisement's text"</h3>
                 </div>
-                <div class="slide-card">
-                    <img class="slide-imgs" src="images/pexels-angela-roma-7319125.jpg" alt="Businesses Banner">
-                    <h3 class="text">"Advertisement's text"</h3>
-                </div>
-                <div class="slide-card">
-                    <img class="slide-imgs" src="images/pexels-suzy-hazelwood-5915081.jpg" alt="Businesses Banner">
-                    <h3 class="text">"Advertisement's text"</h3>
-                </div>
-            </section>
+            </div>
         </div>
         <div class="main-cards">
             <h2>COMMUNITY</h2>
             <section class="community-cards">
                 
                 <div class="community-card">
-                    <img class="card-imgs" src="images/pexels-leah-kelley-325521.jpg" alt="Community image">
+                    <img class="card-imgs" src="images/pexels-leah-kelley-325521.webp" alt="Community image">
                     <h4>"Title"</h4>
                     <p>small description</p>
                 </div>
                 <div class="community-card">
-                    <img class="card-imgs" src="images/pexels-leah-kelley-325521.jpg" alt="Community image">
+                    <img class="card-imgs" src="images/pexels-leah-kelley-325521.webp" alt="Community image">
                     <h4>"Title"</h4>
                     <p>small description</p>
                 </div>
                 <div class="community-card">
-                    <img class="slide-imgs" src="images/pexels-leah-kelley-325521.jpg" alt="Community image">
+                    <img class="slide-imgs" src="images/pexels-leah-kelley-325521.webp" alt="Community image">
                     <h4>"Title"</h4>
                     <p>small description</p>
                 </div>
@@ -104,17 +104,17 @@
             <section class="events-cards">
                 
                 <div class="event-card">
-                    <img class="card-imgs" src="images/pexels-julian-v-860227.jpg" alt="Events image">
+                    <img class="card-imgs" src="images/pexels-julian-v-860227.webp" alt="Events image">
                     <h4>"Title"</h4>
                     <p>small description</p>
                 </div>
                 <div class="event-card">
-                    <img class="card-imgs" src="images/pexels-julian-v-860227.jpg" alt="Events image">
+                    <img class="card-imgs" src="images/pexels-julian-v-860227.webp" alt="Events image">
                     <h4>"Title"</h4>
                     <p>small description</p>
                 </div>
                 <div class="event-card">
-                    <img class="card-imgs" src="images/pexels-julian-v-860227.jpg" alt="Events image">
+                    <img class="card-imgs" src="images/pexels-julian-v-860227.webp" alt="Events image">
                     <h4>"Title"</h4>
                     <p>small description</p>
                 </div>
@@ -129,8 +129,10 @@
 
         <p>Amanda Cristina Schneider Migliorini | WDD 230 | | Last Modification: <a id="lastModified"></a></p>
     </footer>
-    
+    <script src="scripts/weather.js"></script>
     <script src="scripts/chamber.js"></script>
-    <script src="scripts/caroussel.js"></script>
+    <script src="scripts/advertising.js"></script>
+    <script src="scripts/pop-up.js"></script>
+
 </body>
 </html>
