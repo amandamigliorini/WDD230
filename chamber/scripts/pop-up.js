@@ -23,3 +23,6 @@ if (weekDay == 1 || weekDay == 2 || weekDay == 3){
         popup.classList.add('closed-popup')
     })
 }
+else{
+    popup.setAttribute('style', 'display: none');
+}
